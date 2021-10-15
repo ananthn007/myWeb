@@ -614,7 +614,7 @@ h6 { font-size: 16px; }
 .tokyo_tm_modalbox_about .box_inner{
 	position: absolute;
 	top: 70px;
-	bottom: 70px;
+	bottom: 20px;
 	width: 968px;
 	left: 50%;
 	transform: translateX(-50%);
@@ -637,8 +637,8 @@ h6 { font-size: 16px; }
 	margin-top: 0px;
 }
 .tokyo_tm_modalbox_about .close{
-	position: fixed;
-	left: 100%;
+	position:relative;
+	left: 90%;
 	top: 0px;
 	margin-left: 40px;
 	z-index: 111111;
@@ -654,7 +654,7 @@ h6 { font-size: 16px; }
 .tokyo_tm_modalbox_about .description_wrap{
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	float: left;
 	overflow: hidden;
 	overflow-y: scroll;
@@ -754,7 +754,7 @@ h6 { font-size: 16px; }
 	clear: both;
 }
 .tokyo_tm_modalbox_about .counter ul{
-	margin: 0px 0px 42px -50px;
+	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 	padding-top: 45px;
 	display: flex;
