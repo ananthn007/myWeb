@@ -650,6 +650,7 @@ h6 { font-size: 16px; }
 .tokyo_tm_modalbox_about .close .svg{
 	width: 50px;
 	height: 50px;
+	pointer-events: none;
 }
 .tokyo_tm_modalbox_about .description_wrap{
 	position: relative;
